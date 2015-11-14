@@ -1,0 +1,33 @@
+{
+  "name": "robbiethegeek",
+  "version": "1.0.1",
+  "description": "Robbie The Geek in code...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbiethegeek/robbiethegeek.git"
+  },
+  "keywords": [
+    "robbiethegeek"
+  ],
+  "author": {
+    "name": "Robbie Holmes",
+    "email": "robbiethegeek@gmail.com",
+    "url": "http://robbiethegeek.com/"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "robbiethegeek": "./lib/robbie.js"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbiethegeek/robbiethegeek/issues"
+  },
+  "homepage": "https://github.com/robbiethegeek/robbiethegeek#readme",
+  "dependencies": {
+    "ascii-table": "0.0.8"
+  }
+}
